@@ -1,0 +1,44 @@
+/* Styling the table */
+h1 {
+  font-family: Verdana;
+  text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Shadow to the right and bottom */
+    border-radius: 5px; /* Rounded corners */
+    overflow: hidden; /* Ensure the rounded corners apply */
+}
+
+/* First row styling (thead) */
+thead tr {
+    background-color: rgb(87, 97, 236); /* Gray background */
+    color: black; /* Black text */
+    font-weight: bold; /* Bold text */
+}
+
+/* General table body styling */
+tbody tr {
+    background-color: rgb(133, 138, 202); /* Dark blue background */
+    color: black; /* Black text */
+}
+
+/* Hover effect for tbody rows (excluding the first row) */
+tbody tr:hover {
+    background-color: rgb(182, 186, 236); /* Light blue on hover */
+}
+
+/* Table cell styling */
+td, th {
+    padding: 10px;
+    border: 1px solid grey;
+    text-align: left;
+    font-family: Helvetica, sans-serif;
+}
+
+.row {
+    color: grey;
+    font-style: italic;
+}
